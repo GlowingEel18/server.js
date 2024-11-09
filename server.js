@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+app.use(cors());
 
 const app = express();
 const PORT = process.env.PORT || 3000; // Render will set process.env.PORT
