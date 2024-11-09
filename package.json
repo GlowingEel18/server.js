@@ -1,5 +1,5 @@
 {
-  "homepage": "http:///my-library-app",
+  "homepage": "/my-library-app",
   "name": "my-library-app",
   "version": "0.1.0",
   "private": false,
@@ -37,10 +37,5 @@
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "react-scripts": "^5.0.1"
-  },
-  "description": "",
-  "main": "server.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }

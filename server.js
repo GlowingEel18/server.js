@@ -1,11 +1,12 @@
 const express = require('express');
 const cors = require('cors');
-app.use(cors());
 
-const app = express();
+const app = express(); // Initialize app before using it
+
+app.use(cors()); // Now, app is defined, so this will work
+
 const PORT = process.env.PORT || 3000; // Render will set process.env.PORT
 
-app.use(cors()); // Enable CORS for all routes
 app.use(express.static('public')); // Serve static files if needed
 
 app.get("/", (req,res) => {
